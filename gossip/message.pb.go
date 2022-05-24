@@ -7,10 +7,10 @@ import (
 	context "context"
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	peer "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	codes "gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	status "gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	peer "github.com/xiazeyin/fabric-protos-go-gm/peer"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	codes "github.com/xiazeyin/gmgo/grpc/codes"
+	status "github.com/xiazeyin/gmgo/grpc/status"
 	math "math"
 )
 

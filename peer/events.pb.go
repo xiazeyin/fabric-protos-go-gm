@@ -7,11 +7,11 @@ import (
 	context "context"
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	common "gitee.com/zhaochuninhefei/fabric-protos-go-gm/common"
-	rwset "gitee.com/zhaochuninhefei/fabric-protos-go-gm/ledger/rwset"
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	codes "gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	status "gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	common "github.com/xiazeyin/fabric-protos-go-gm/common"
+	rwset "github.com/xiazeyin/fabric-protos-go-gm/ledger/rwset"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	codes "github.com/xiazeyin/gmgo/grpc/codes"
+	status "github.com/xiazeyin/gmgo/grpc/status"
 	math "math"
 )
 

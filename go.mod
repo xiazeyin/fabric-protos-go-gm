@@ -1,20 +1,9 @@
-module gitee.com/zhaochuninhefei/fabric-protos-go-gm
+module github.com/xiazeyin/fabric-protos-go-gm
 
-go 1.17
+go 1.16
 
-require (
-	gitee.com/zhaochuninhefei/gmgo v0.0.14
-	github.com/golang/protobuf v1.5.2
-)
+require github.com/golang/protobuf v1.5.2
 
-require (
-	gitee.com/zhaochuninhefei/zcgolog v0.0.14 // indirect
-	golang.org/x/crypto v0.0.0-20220214200702-86341886e292 // indirect
-	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
-	golang.org/x/sys v0.0.0-20220310020820-b874c991c1a5 // indirect
-	golang.org/x/text v0.3.7 // indirect
-	google.golang.org/genproto v0.0.0-20200825200019-8632dd797987 // indirect
-	google.golang.org/protobuf v1.26.0 // indirect
-)
+require github.com/xiazeyin/gmgo v0.0.0-20220524080332-30d9ca7379fe
 
-// replace gitee.com/zhaochuninhefei/gmgo => /home/zhaochun/work/sources/gm-zc/gmgo
+// replace github.com/xiazeyin/gmgo => /home/zhaochun/work/sources/gm-zc/gmgo

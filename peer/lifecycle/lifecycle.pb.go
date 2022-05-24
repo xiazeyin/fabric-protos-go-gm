@@ -6,7 +6,7 @@ package lifecycle
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	peer "gitee.com/zhaochuninhefei/fabric-protos-go-gm/peer"
+	peer "github.com/xiazeyin/fabric-protos-go-gm/peer"
 	math "math"
 )
 
